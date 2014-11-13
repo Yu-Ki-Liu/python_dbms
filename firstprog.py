@@ -1,6 +1,6 @@
-import opne_file
+import io_file
 #open a file : ab  the file is in the append mode
-opne_file.open_file()
+io_file.open_file()
 
 #fo = open("user.txt","ab")
 #print "Name of the file: ", fo.name
