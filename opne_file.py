@@ -2,7 +2,7 @@ __author__ = 'chaucer'
 
 def open_file():
     #open a file
-    fo = open("user.txt","wb")
+    fo = open("user.txt","ab")
     print "Name of the file: ", fo.name
     print "Closed or not : ", fo.closed
     print "Opening mode : ", fo.mode

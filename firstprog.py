@@ -1,6 +1,9 @@
 import io_file
 #open a file : ab  the file is in the append mode
-io_file.open_file()
+str = io_file.read_file()
+io_file.write_file()
+
+print str[0]
 
 #fo = open("user.txt","ab")
 #print "Name of the file: ", fo.name
